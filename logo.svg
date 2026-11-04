@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="112 122 716 76" width="716" height="76" role="img" aria-label="Division Street">
+  <g fill="#C59E5B" stroke="#C59E5B">
+    <circle cx="150" cy="160" fill="none" r="32" stroke-width="3"/>
+    <rect height="4" width="30" x="135" y="158" stroke="none"/>
+    <circle cx="150" cy="146" r="3.5" stroke="none"/>
+    <circle cx="150" cy="174" r="3.5" stroke="none"/>
+  </g>
+  <text fill="#0F1C30" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="14" x="224" y="176">DIVISION STREET</text>
+</svg>
