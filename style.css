@@ -27,7 +27,7 @@ main { flex: 1; }
 a { color: inherit; }
 .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
 .eyebrow {
-  font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase;
+  font-size: 15px; letter-spacing: 0.02em;
   color: var(--gold-text); font-weight: 500; margin: 0 0 18px;
 }
 h1, h2, h3 { font-family: var(--serif); font-weight: 400; margin: 0; }
@@ -40,7 +40,7 @@ header { background: var(--cream); border-bottom: 1px solid var(--line); }
 .logo img { height: 30px; width: auto; display: block; }
 nav ul { list-style: none; display: flex; gap: 36px; margin: 0; padding: 0; }
 nav a {
-  text-decoration: none; font-size: 13px; letter-spacing: 0.16em; font-weight: 500;
+  text-decoration: none; font-size: 15px; letter-spacing: 0.01em; font-weight: 500;
   padding: 6px 0; border-bottom: 1px solid transparent;
 }
 nav a:hover, nav a:focus-visible { border-bottom-color: var(--ink); }
@@ -57,15 +57,16 @@ nav a[aria-current="page"] { border-bottom-color: var(--gold); }
 /* About */
 .about { background: var(--stone); padding: 104px 0; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
-.about .intro { font-size: 20px; margin: 0; }
+.about .intro { font-size: 22px; line-height: 1.55; margin: 0; max-width: 760px; }
+.about .intro.note { font-size: 16px; color: var(--slate); margin-top: 24px; }
 
 /* Team */
 .team { padding: 104px 0; }
 .team h2 { margin-bottom: 60px; }
 .people { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
-.person { border-top: 1px solid var(--ink); padding-top: 28px; }
-.person h3 { font-size: 32px; }
-.person .role { font-size: 13px; letter-spacing: 0.16em; color: var(--gold-text); font-weight: 500; margin: 10px 0 20px; }
+.person { border-top: 1px solid var(--ink); padding-top: 24px; max-width: 520px; }
+.person h3 { font-size: 28px; }
+.person .role { font-size: 15px; color: var(--gold-text); font-weight: 500; margin: 6px 0 12px; }
 .person p { margin: 0; }
 
 /* Contact */
@@ -74,14 +75,14 @@ nav a[aria-current="page"] { border-bottom-color: var(--gold); }
 .contact dl { margin: 0; }
 .contact dl > div { padding: 22px 0; border-top: 1px solid var(--line); }
 .contact dl > div:last-child { border-bottom: 1px solid var(--line); }
-.contact dt { font-size: 13px; letter-spacing: 0.16em; color: var(--slate); font-weight: 500; margin-bottom: 6px; }
+.contact dt { font-size: 15px; color: var(--slate); font-weight: 500; margin-bottom: 6px; }
 .contact dd { margin: 0; font-size: 22px; }
 .contact dd a { text-decoration: none; border-bottom: 1px solid var(--line); }
 .contact dd a:hover { border-bottom-color: var(--ink); }
 .cta {
   display: inline-block; margin-top: 36px; text-decoration: none;
   background: var(--navy); color: var(--cream);
-  padding: 15px 28px; font-size: 13px; letter-spacing: 0.16em; font-weight: 500;
+  padding: 15px 28px; font-size: 15px; letter-spacing: 0.01em; font-weight: 500;
 }
 .cta:hover, .cta:focus-visible { background: #1d2c45; }
 
