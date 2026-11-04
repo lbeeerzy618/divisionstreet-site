@@ -47,7 +47,12 @@ nav a:hover, nav a:focus-visible { border-bottom-color: var(--ink); }
 nav a[aria-current="page"] { border-bottom-color: var(--gold); }
 
 /* Hero */
-.hero { background: var(--navy); color: var(--cream); padding: 112px 0 120px; }
+.hero {
+  color: var(--cream); padding: 112px 0 120px;
+  background-color: var(--navy);
+  background-image: linear-gradient(90deg, rgba(15,28,48,0.92) 0%, rgba(15,28,48,0.72) 45%, rgba(15,28,48,0.25) 100%), url("skyline.webp");
+  background-size: cover; background-position: center 55%;
+}
 .hero .mark { width: 64px; height: 64px; display: block; margin-bottom: 36px; }
 .hero h1 { font-size: clamp(48px, 8vw, 84px); line-height: 1.02; }
 .hero .sub { font-family: var(--serif); font-size: clamp(20px, 2.6vw, 28px); color: rgba(253,252,248,0.72); margin: 12px 0 0; }
@@ -95,6 +100,7 @@ footer .entities { padding-top: 22px; border-top: 1px solid var(--line); display
   .two, .people { grid-template-columns: 1fr; gap: 40px; }
 }
 @media (max-width: 620px) {
+  .hero { background-image: linear-gradient(180deg, rgba(15,28,48,0.85), rgba(15,28,48,0.6)), url("skyline.webp"); }
   .wrap { padding: 0 16px; }
   .bar { height: auto; padding-top: 16px; padding-bottom: 16px; flex-direction: column; align-items: flex-start; gap: 12px; }
   .logo img { height: 22px; }
